@@ -38,21 +38,20 @@ class Form{
             player.index = playerCount;
             player.update();
             player.updateCount(playerCount);
-            this.greeting.html("Hello " + player.name)
-            this.greeting.position(400,250);
-            this.greeting.style('color', 'white');
-            this.greeting.style('font-size', '100px');
+          greeting.html("Hello " + player.name)
+          greeting.position(400,250);
+          greeting.style('color', 'white');
+          greeting.style('font-size', '100px');
         });
 
         this.reset.mousePressed(() => {
-            player.updateCount(0);
-            game.update(0);
-
-
-
-            var playerInfoRef = database.ref('players');
-            playerInfoRef.remove();
-
+           
+            
+            
+            
+            
+            
+            
             
         });
 
